@@ -1,0 +1,18 @@
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Assuming your button is called button1
+
+            button1.Text = "Clicked";
+            button1.BackColor = Color.IndianRed;
+
+
+            clicked = true;
+
+            if (clicked == true)
+            {
+                textBox1.Text = "Nice job gamer";
+                label1.Text = "Resizing time";
+                // create a label1
+                // create a textbox1
+            }
+        }
